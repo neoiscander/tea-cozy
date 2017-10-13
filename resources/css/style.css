@@ -1,1 +1,119 @@
-style
+/*------------------ Heading ----------------*/
+
+.heading {
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.heading img {
+	background-color: grey;
+	border: 1px solid black;
+}
+
+.heading .nav {
+	border: 1px solid black;
+}
+
+nav {
+	border: 1px solid black;
+	
+}
+
+
+/* ------------ Section 1 ----------*/
+
+.body {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section {
+	background-image: url("../images/img-mission-background.jpg");
+	height: 700px;
+	width: 1200px;	
+}
+
+.section h2 {
+	text-align: center;
+}
+
+.section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*border section 1*/
+.section h2, .section h4, .section, .container, .section div {
+	border: 1px solid black;
+}
+
+
+/*------------------ Section 2 ----------------*/
+
+.section2 {
+	width: 1000px;
+}
+
+.section2 img {
+	height: 200px;
+	width: 300px;
+}
+
+/*border section 2*/
+.section2, .section2 h4, .section2 p, .section2 div {
+	border: 1px solid black;
+}
+
+.section2 h4, .section2 p, .section2 img {
+	text-align: center;
+}
+
+.section2 h4 {
+	padding-top: 10px;
+	margin: 0;
+}
+
+.secton2 img {
+	margin: 0;
+	padding: 0;
+}
+
+.row {     /* For section 3 also*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*------------- Section 3 ------------*/
+
+.section3 {
+	width: 1200px;
+	background-image: url("");
+}
+
+.row {
+/* class "row" is in the section 2*/
+}
+
+.block {
+	text-align: center;
+	width: 300px;
+	margin: 0 20px;
+}
+
+.block, .section3 .row, .block h4, .block h4 {
+	border: 1px solid black; 
+}
